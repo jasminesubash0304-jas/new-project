@@ -27,28 +27,6 @@ def check_NOTA():
     global NOTA
     print("total vote of NOTA=",NOTA)
 pin=9090
-while True:
-    if choice==1:
-        TVK+=1
-        check_TVK()
-    elif choice==2:
-        DMK+=1
-        check_DMK()
-    elif choice==3:
-        AIADMK+=1
-        check_AIADMK()
-    elif choice==4:
-        BJP+=1
-        check_BJP()
-    elif choice==5:
-        INC+=1
-        check_INC()
-    elif choice==6:
-        PMK+=1
-        check_PMK()
-    elif choice==7:
-        NOTA+=1
-        check_NOTA()
     else:
         vote_pin=int(input("enter the pin:"))
         if pin==vote_pin:
