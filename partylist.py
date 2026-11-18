@@ -28,6 +28,7 @@ def check_NOTA():
     print("total vote of NOTA=",NOTA)
 pin=9090
 while True:
+    choice=int(input("enter the number:"))
     if choice==1:
         TVK+=1
         check_TVK()
